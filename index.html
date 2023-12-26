@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <img src="./Images/logo.png" alt="logo" class="myLogo">
+      <ul class="menu">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+        <li><a href="#project">PROJECT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+      <div class="toggleBtn" id="toggleBtn">
+        <i class="fa fa-bars"></i>
+      </div>
+    </nav>
+    <div class="dropdown" id="popup">
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#experience">EXPERIENCE</a></li>
+        <li><a href="#project">PROJECT</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="margin" id="home"></div>
+  
+  <main class="homeContainer">
+      <section class="imgContainer">
+        <img src="./Images/profile.png" alt="Arnold James Felisilda" class="myPticture">
+      </section>
+      <section class="homeDescription">
+        <h6>Hello! I am</h6>
+        <h1>Arnold James <span>Felisilda</span></h1>
+        <p>Welcome to my portfolio! You can call me James, an IT student of Bohol Island State University - Balilihan Campus.</p>
+  
+        <div class="socIcon">
+          <a href="https://www.facebook.com/profile.php?id=100009261152804" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/arjamesfelis/" target="_blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/your-twitter-profile" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://github.com/poroko26" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </section>
+  </main>
+
+  <div class="margin" id="about"></div>
+
+  <main class="aboutContainer">
+    <section class="aboutMe">
+      <div>
+        <h1>about <span>me</span></h1>
+        <img src="./Images/profile.png" alt="My Picture">
+        <h2>View CV</h2>
+      </div>
+    </section>
+    <section class="aboutMeDesciption">
+      <div>
+        <p>I was born in Valencia, Bohol, two decades and a year. Initially, it wasn’t my dream course
+          nor even on my list, but I soon discovered that I had a greater passion for technology,
+          particularly in the field of web design and development. Consequently, I made a decision
+          to pursue this course in college and expand my knowledge in this area.</p>
+          <p>Choosing to attend Bohol Island State University - Balilihan Campus turned out to be the
+            best decision I have ever made. It not only helped me identify my true aspirations but also
+            provided me with exceptional teaching skills.</p>
+            <p>I focused primarily on web development and design, as well as UI/UX design.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="margin" id="experience"></div>
+
+  <main class="experienceContainer">
+    <section class="experHeading">
+      <h3>Explore my</h3>
+      <h1>Experience</h1>
+    </section>
+    <h3 class="experFont">Programming</h3>
+    <section class="experienceWrapper">
+        <div class="progBox">
+          <i class="fa-brands fa-html5"></i>
+          <h3>HTML</h3>
+        </div>
+        <div class="progBox">
+          <i class="fa-brands fa-css3-alt"></i>
+          <h3>CSS</h3>
+        </div>
+        <div class="progBox">
+          <i class="fa-brands fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+        <div class="progBox">
+          <i class="fa-brands fa-react"></i>
+          <h3>React Native</h3>
+        </div>
+        <div class="progBox">
+          <i class="fa-brands fa-java"></i>
+          <h3>Java</h3>
+        </div>
+        <div class="progBox">
+          <i class="fa-solid fa-database"></i>
+          <h3>SQL</h3>
+        </div>
+    </section>
+
+    <h3 class="experFont">Tools</h3>
+    <section class="experienceWrapper">
+      <div class="toolsBox">
+        <img src="./Images/figma.png" alt="Figma">
+        <h3>Figma</h3>
+      </div>
+      <div class="toolsBox">
+        <img src="./Images/illustrator.png" alt="">
+        <h3>Illustrator</h3>
+      </div>
+      <div class="toolsBox">
+        <img src="./Images/photoshop.png" alt="">
+        <h3>Photoshop</h3>
+      </div>
+      <div class="toolsBox">
+        <img src="./Images/canva.png" alt="">
+        <h3>Canva</h3>
+      </div>
+      <div class="toolsBox">
+        <img src="./Images/google-sketchup-logotype.png" alt="">
+        <h3>SketchUp</h3>
+      </div>
+    </section>
+  </main>
+
+  <div class="margin" id="project"></div>
+  <main class="projectContainer">
+    <h1 class="projectHeading">my <span>project</span></h1>
+    <section class="projectWrapper">
+      <div class="box1">
+          <img src="./Images/BHMS.png" alt="">
+          <h1>Boarding House Management System</h1>
+          <p>This system was made of Java and SQL.</p>
+          <div class="scCon">
+            <a href="https://github.com/poroko26/BHMS.git" class="sourceCode">VIEW SOURCE CODE</a>
+          </div>
+      </div>
+      <div class="box1">
+        <img src="./Images/sketchUp.jpg" alt="">
+        <h1>Project 2</h1>
+        <p>This project was made by SketchUp</p>
+      </div>
+      <div class="box1">
+        <img src="./Images/BDS.png" alt="">
+        <h1>Blood Donation System</h1>
+        <p>This system was made of Java and SQL.</p>
+        <div class="scCon">
+          <a href="https://github.com/poroko26/BDS.git" class="sourceCode">VIEW SOURCE CODE</a>
+        </div>
+    </div>
+    </section>
+    <section class="otherProject">
+      <div>
+        <i class="fa-solid fa-arrow-down"></i>
+      </div>
+      <h3 class="smallProject" id="showProjects">SHOW SMALL PROJECTS</h3>
+    </section>
+
+    <div class="modalSmallProject" id="smallProjectsModal">
+      <span class="closeButton" onclick="closeModal()">&#10006;</span>
+      <div>
+        <ul>
+          <li><a href="https://poroko26.github.io/FAQs/"> Accordion</a></li>
+          <li><a href="https://poroko26.github.io/Modal/"> Modal</a></li>
+          <li><a href="https://poroko26.github.io/LogIn-Form/"> Log In Form</a></li>
+          <li><a href="https://poroko26.github.io/Quote-Generator/"> Quote Generator</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <div class="margin" id="contact"></div>
+
+  <footer class="contactWrapper">
+    <div class="logoContact">
+      <img src="./Images/logo.png" alt="logo">
+    </div>
+    <form action="#" class="contactMe" id="contactForm">
+      <h3 class="con">Contact Me</h3>
+      <div class="inputCon">
+        <div class="contact">
+          <input type="text" name="name" id="name" placeholder="Name">
+          <h3 class="errMsg" id="errMsgName">Please enter a valid name (letters only).</h3>
+        </div>
+        <br>
+        <div class="contact">
+          <input type="email" name="email" id="email" placeholder="Email Address">
+          <h3 class="errMsg" id="errMsgGmail">Please enter a valid Gmail address.</h3>
+        </div>
+        <br>
+        <div class="contact">
+          <textarea name="message" id="message" placeholder="Message" required></textarea>
+          <h3 class="errMsg" id="errMsgMessage">Please fill out this field</h3>
+        </div>
+        <button type="submit" class="sendBtn">Send</button>
+      </div>
+
+      <p id="successMsg" class="successMsg">Form submitted successfully!</p>
+    </form>
+    
+
+    <div class="socIconContact">
+      <a href="https://www.facebook.com/profile.php?id=100009261152804" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/arjamesfelis/" target="_blank">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://twitter.com/your-twitter-profile" target="_blank">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://github.com/poroko26" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
+    <div class="email">
+        <div class="wrapper">
+          <i class="fa-solid fa-envelope"></i>
+          <a href="#">arnoldjamesfelis@gmail.com</a>
+        </div>
+        <div class="wrapper">
+          <i class="fa-solid fa-phone"></i>
+          <h3>0912 - 693 - 1067</h3>
+        </div>
+    </div>
+    <h1>Copyright © 2023 Arnold James Felisilda. All rights reserved.</h1> 
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
